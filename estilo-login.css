@@ -10,11 +10,8 @@
     .carta{
         min-width: 5rem;
         display: flex;
-<<<<<<< HEAD
-=======
         flex-direction: column;
         
->>>>>>> 3d762d9a5fa698b274af23faf40d9869c06f5bf6
         padding: 30px;
         background-color: #ffffffda;
         box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1); /* Una sombra elegante */
@@ -22,13 +19,8 @@
     }
     form {
         display: flex;
-<<<<<<< HEAD
-        text-align: center;
-        flex-direction: column;
-=======
         flex-direction: column;
         text-align: center;
->>>>>>> 3d762d9a5fa698b274af23faf40d9869c06f5bf6
         gap: 20px;
     }
     form input{
@@ -58,8 +50,6 @@
         max-width: 100%;
 
         margin-bottom: 15px;
-<<<<<<< HEAD
-=======
     }
     button a{
         
@@ -68,5 +58,4 @@
     font-weight: bold;
     display: block; /* Hace que toda la fila sea clickeable, no solo el texto */
     border-radius: 5px;
->>>>>>> 3d762d9a5fa698b274af23faf40d9869c06f5bf6
     }
