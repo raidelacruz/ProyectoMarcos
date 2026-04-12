@@ -1,0 +1,37 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    height: 100vh;
+    padding: 0.5rem;
+    display: grid;
+    grid-template-columns: 20% 1fr;
+    grid-template-rows: 3rem 1fr;
+    gap: 5px;
+    background-color: #ccc;
+    grid-template-areas: 
+    "topbar topbar"
+    "sidebar content";
+}
+
+.container > * {
+    background-color: whitesmoke;
+    border-radius: 15px;
+    padding: 10px;
+    align-items: center;
+}
+
+.topbar {
+    grid-area: topbar;
+}
+
+.sidebar {
+    grid-area: sidebar;
+}
+
+.content {
+    grid-area: content;
+}
